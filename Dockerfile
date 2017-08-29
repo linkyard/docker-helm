@@ -3,7 +3,7 @@ MAINTAINER Mario Siegenthaler <mario.siegenthaler@linkyard.ch>
 
 RUN apk add --update --no-cache ca-certificates git
 
-ENV VERSION v2.5.1
+ENV VERSION v2.6.0
 ENV FILENAME helm-${VERSION}-linux-amd64.tar.gz
 
 WORKDIR /
