@@ -3,7 +3,7 @@ MAINTAINER Mario Siegenthaler <mario.siegenthaler@linkyard.ch>
 
 RUN apk add --update --no-cache ca-certificates git
 
-ARG VERSION=v2.9.0
+ARG VERSION=v2.9.1
 ARG FILENAME=helm-${VERSION}-linux-amd64.tar.gz
 
 WORKDIR /
