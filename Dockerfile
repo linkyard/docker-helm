@@ -1,4 +1,4 @@
-FROM alpine:3.6 as build
+FROM alpine:3.7 as build
 MAINTAINER Mario Siegenthaler <mario.siegenthaler@linkyard.ch>
 
 RUN apk add --update --no-cache ca-certificates git
@@ -12,7 +12,7 @@ RUN apk add --update -t deps curl tar gzip
 RUN curl -L http://storage.googleapis.com/kubernetes-helm/${FILENAME} | tar zxv -C /tmp
 
 # The image we keep
-FROM alpine:3.6
+FROM alpine:3.7
 
 RUN apk add --update --no-cache git ca-certificates
 
