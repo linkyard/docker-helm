@@ -3,8 +3,8 @@ MAINTAINER Mario Siegenthaler <mario.siegenthaler@linkyard.ch>
 
 RUN apk add --update --no-cache ca-certificates git
 
-ARG VERSION=v2.9.1
-ARG FILENAME=helm-${VERSION}-linux-amd64.tar.gz
+ENV VERSION=v2.9.1
+ENV FILENAME=helm-${VERSION}-linux-amd64.tar.gz
 ENV SHA256SUM=56ae2d5d08c68d6e7400d462d6ed10c929effac929fedce18d2636a9b4e166ba
 
 WORKDIR /
