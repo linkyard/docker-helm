@@ -1,5 +1,5 @@
 FROM alpine:3.8 as build
-MAINTAINER Mario Siegenthaler <mario.siegenthaler@linkyard.ch>
+LABEL maintainer="Mario Siegenthaler <mario.siegenthaler@linkyard.ch>"
 
 RUN apk add --update --no-cache ca-certificates git
 
