@@ -3,9 +3,9 @@ LABEL maintainer="Mario Siegenthaler <mario.siegenthaler@linkyard.ch>"
 
 RUN apk add --update --no-cache ca-certificates git
 
-ENV VERSION=v2.12.2
+ENV VERSION=v2.13.0
 ENV FILENAME=helm-${VERSION}-linux-amd64.tar.gz
-ENV SHA256SUM=edad6d5e594408b996b8d758a04948f89dab15fa6c6ea6daee3709f8c099df6d
+ENV SHA256SUM=15eca6ad225a8279de80c7ced42305e24bc5ac60bb7d96f2d2fa4af86e02c794
 
 WORKDIR /
 
