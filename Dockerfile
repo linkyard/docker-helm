@@ -1,4 +1,4 @@
-FROM alpine:3.8 as build
+FROM alpine:3.9 as build
 LABEL maintainer="Mario Siegenthaler <mario.siegenthaler@linkyard.ch>"
 
 RUN apk add --update --no-cache ca-certificates git
